@@ -21,7 +21,7 @@ int main(void) {
 	pinMode(21, INPUT);
 	pinMode(40, INPUT);
 	// 19 and 26
-	while(true) {
+	while(1) {
 		digitalRead(21);
 		digitalRead(40);
 	}
